@@ -3,11 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>YOLO</title>
+	<style>
+		#parent{
+			text-align: center;
+			font: 50px sans-serif;
+		}
+	</style>
 </head>
 <body>
 	<div id="parent">
-		<canvas id="canvasArena" height="600" width="600">
-		</canvas>
+		<p style="text-align: center;">Moves: <span id="movecount"></span></p>
+		<canvas id="canvasArena" height="600" width="600"></canvas>
 	</div>
 	<script type="text/javascript" src="sliding_8.js"></script>
 </body>
